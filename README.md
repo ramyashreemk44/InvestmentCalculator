@@ -33,19 +33,9 @@ Build for production
 The output will be in the dist/ folder.
 
 ## Screenshots
-Place your screenshots in a tracked folder and reference them with a relative path.
-
-Create folder (once)  
-    mkdir -p assets/screenshots
-
-Move your image there (example)  
-    mv app-dashboard.png assets/screenshots/app-dashboard.png
-
-Include in README  
 ![Dashboard](assets/screenshots/app-dashboard.png)
 
-Tip: paths are case-sensitive. To control size, you can use HTML instead:
-<img src="assets/screenshots/app-dashboard.png" alt="Dashboard" width="800"/>
+
 
 ## Future Enhancements
 - Line or bar chart for growth over time
