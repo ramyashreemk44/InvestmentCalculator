@@ -1,56 +1,54 @@
 # InvestmentCalculator
-A financial calculator that helps estimate returns on investments over time.
+A professional Angular app that estimates how an investment grows over time.
 
-## 📌 Overview
-InvestmentCalculator allows users to input initial investment, annual contributions, expected rate of return, and duration to project how their investment grows year by year.  
+## Overview
+Enter initial investment, annual contribution, expected return (%), and duration (years). The app computes a year-by-year table showing invested capital, interest earned per year, total interest accumulated, and final value.
 
-## ✨ Features
-- Input: Initial investment, annual investment, expected return (%), duration (years)  
-- Yearly breakdown of:
-  - Investment value
-  - Interest earned (per year)
-  - Total interest accumulated
-  - Invested capital  
-- Clean and responsive UI  
+## Features
+- Inputs: initial investment, annual investment, expected return (%), duration (years)
+- Yearly breakdown: investment value, interest (per year), total interest, invested capital
+- Clean, responsive UI
 
-## 🛠 Tech Stack
-- **Frontend**: Angular  
-- **Styling**: CSS / SCSS  
-- **Package Manager**: npm  
+## Tech Stack
+- Angular, TypeScript, CSS/SCSS, npm
 
-## 🚀 Getting Started
+## Getting Started
 
-### Prerequisites
-Make sure Node.js and Angular CLI are installed:
-```bash
-node -v
-npm -v
-ng version
-Installation
-Clone the repo and install dependencies:
+Prerequisites  
+    node -v  
+    npm -v  
+    ng version
 
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/InvestmentCalculator.git
-cd InvestmentCalculator
-npm install
-Running the App
-bash
-Copy
-Edit
-ng serve
-Then open http://localhost:4200.
+Installation  
+    git clone https://github.com/ramyashreemk44/InvestmentCalculator.git  
+    cd InvestmentCalculator  
+    npm install
 
-📸 Screenshots
-![Dashboard](public/app-dashboard.png)
+Run the app  
+    ng serve  
+Open http://localhost:4200 in your browser.
 
+Build for production  
+    ng build  
+The output will be in the dist/ folder.
 
-📈 Future Enhancements
-Add chart visualization (line/bar graph of growth)
+## Screenshots
+Place your screenshots in a tracked folder and reference them with a relative path.
 
-Support for multiple currencies
+Create folder (once)  
+    mkdir -p assets/screenshots
 
-Option for monthly contributions
+Move your image there (example)  
+    mv app-dashboard.png assets/screenshots/app-dashboard.png
 
-Dark/light theme toggle
+Include in README  
+![Dashboard](assets/screenshots/app-dashboard.png)
+
+Tip: paths are case-sensitive. To control size, you can use HTML instead:
+<img src="assets/screenshots/app-dashboard.png" alt="Dashboard" width="800"/>
+
+## Future Enhancements
+- Line or bar chart for growth over time
+- Multiple currency support
+- Monthly contribution option
+- Dark/light theme toggle
